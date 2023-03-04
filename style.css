@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*  header section */
+
+.header .content_box {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(images/images.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    display: inline-flex;
+}
+.menu img{
+    height: 70px;
+    margin: 10px 0 0 100px;
+    cursor: pointer;
+    width: 180px;
+}
+.menu button{
+    padding: 10px 20px;
+    background-color: #ff4d73;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu .fa-solid{
+    margin-right: 10px;
+}
+.banner_text{
+    width: 80%;
+    color: #ffffff;
+    margin: 16% auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banner_text h2{
+    margin-top: 50px;
+    font-size: 64px;
+}
+.banner_text p{
+    font-size: 14px;
+    margin: 20px 0 50px;
+}
+.banner_text a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ff4d73;
+    padding: 10px;
+    display: block;
+    width: 180px;
+    margin: auto;
+    background-color: #ff4d73;
+    transition: background-color 1s;
+}
+.banner_text a:hover{
+    background-color: transparent;
+}
+
+/*  service section */
+
+.service .content_box{
+    background-color: #f4f3ff;
+    height: 100vh;
+    width: 100%;
+    
+}
+.col-md-3{
+    padding-top: 25px;
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+}
+h1::after{
+    content: '';
+    background-color: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto;
+}
+.services .icon{
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ff4d73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    color: #ff4d73;
+}
+.services p{
+    font-size: 12px;
+    margin-top: 10px;
+    color:#777;
+    padding: 20px;
+}
+.services h3{
+    padding-top: 18px;
+    text-transform: capitalize;
+}
+.services span{
+    color: #ff4d73;
+    transition: background-color 1s;
+    transition-delay: 0.3s;
+}
+.services .col-md-3:hover{
+    background-color: #ff4d73;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.6);
+    transition: 0.5s;
+}
+.services .col-md-3:hover .icon{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.services .col-md-3:hover p{
+    color: #ffffff;
+}
+.services .col-md-3:hover span{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/*  feature  */
+
+.feature h2{
+    margin-top: 130px;
+}
+.feature h2::after{
+    content: '';
+    background-color: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 20px auto;
+    position: absolute;
+    left: 185px;
+}
+.feature ul{
+    margin-top: 40px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+.feature ul li{
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+.feature ul li::after{
+    content: '';
+    height: 7px;
+    width: 7px;
+    background-color: #ff4d73;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+.feature .content_box{
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f3ff !important;
+}
+.feature img{
+    margin-top: 130px;
+}
+
+/*  footer  */
+
+.footer{
+    background-color: #f4f3ff;
+    
+}
+.footer h1{
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.contact-form{
+    padding: 15px;
+}
+.contact-form button{
+    border: none;
+    background-color: #ff4d73 !important;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important ;
+    box-shadow: none !important;
+}
+::placeholder{
+    font-size: 12px;
+    font-family: cursive;
+    text-transform: capitalize !important;
+    letter-spacing: 2px;
+}
+.contact-info .follow{
+    background-color: #ffffff;
+    padding: 8px;
+    margin: 15px;
+}
+.contact-info .fa-solid , .contact-info .fa-brands{
+    margin: 10px;
+    font-size: 20px;
+    color: #ff4d73;
+    font-weight: bold;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.follow span{
+    font-size: 14px;
+    font-family: cursive;
+}
+.footer hr{
+    margin-top: 50px;
+    color: #ff4d73 !important;
+}
+.copyright{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px !important;
+}
+.copyright i{
+    color: red;
+}
+.service, .feature, .footer{
+    margin-top: 25%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .feature, .service{
+        height: 150vh;
+    }
+}
