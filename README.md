@@ -1,4 +1,4 @@
-# Web site 3D Effect
+# Website 3D Effect
 
 
 https://h-akim.github.io/Website3DEffect/
